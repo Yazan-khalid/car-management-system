@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" class="app-page">
+<head>
+  <meta charset="UTF-8" />
+  <title>Car Management System – Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="app-page">
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="app-header-inner">
+        <div class="app-brand">
+          <div class="app-brand-logo">CM</div>
+          <span class="app-brand-name">Car Management</span>
+        </div>
+        <nav class="app-nav">
+          <a href="home.html">Home</a>
+          <a href="profile.html" class="active">Profile</a>
+          <a href="index.html">Logout</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="app-main">
+      <section class="home-header">
+        <div class="home-title-block">
+          <h1>Profile</h1>
+          <p>Manage your account details and preferences.</p>
+        </div>
+        <div class="home-actions">
+          <button class="btn btn-secondary" type="button">
+            Edit profile
+          </button>
+        </div>
+      </section>
+
+      <section class="profile-layout">
+        <div class="profile-main">
+          <div class="profile-header">
+            <div class="avatar">JD</div>
+            <div>
+              <div class="profile-name">John Doe</div>
+              <div class="profile-role">Owner · Personal garage</div>
+            </div>
+          </div>
+
+          <div class="profile-meta">
+            <div class="meta-item">
+              <div class="meta-label">Email</div>
+              <div class="meta-value">you@example.com</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-label">Member since</div>
+              <div class="meta-value">Mar 2025</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-label">Cars tracked</div>
+              <div class="meta-value">3 active · 1 archived</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-label">Notifications</div>
+              <div class="meta-value">Email & in-app reminders</div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="profile-sidebar">
+          <div class="profile-card">
+            <h3>Preferences</h3>
+            <p>• Reminder emails 7 days before service</p>
+            <p>• Default view: All cars</p>
+            <p>• Time zone: Local device</p>
+          </div>
+
+          <div class="profile-card">
+            <h3>Security</h3>
+            <p>• Last login: Today · 10:15 AM</p>
+            <p>• 2-step verification: Not enabled (demo)</p>
+            <p>• Device sessions: This browser only</p>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      Car Management System · Profile UI & layout only · No real data stored.
+    </footer>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

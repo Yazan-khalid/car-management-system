@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="app-page">
+<head>
+  <meta charset="UTF-8" />
+  <title>Car Management System – Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="app-page">
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="app-header-inner">
+        <div class="app-brand">
+          <div class="app-brand-logo">CM</div>
+          <span class="app-brand-name">Car Management</span>
+        </div>
+        <nav class="app-nav">
+          <a href="home.html" class="active">Home</a>
+          <a href="profile.html">Profile</a>
+          <a href="index.html">Logout</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="app-main">
+      <section class="home-header">
+        <div class="home-title-block">
+          <h1>Good morning, Driver 🚗</h1>
+          <p>Here’s a quick snapshot of your cars and upcoming service tasks.</p>
+        </div>
+        <div class="home-actions">
+          <button class="btn btn-secondary" type="button">
+            + Add new car
+          </button>
+          <span class="chip">Demo UI · No backend</span>
+        </div>
+      </section>
+
+      <section class="cards-grid">
+        <article class="card">
+          <header class="card-header">
+            <h2 class="card-title">My Cars</h2>
+            <span class="card-tag">Garage · 3 cars</span>
+          </header>
+          <div class="card-body">
+            <p>
+              Quickly see all vehicles you manage in a single view – brand, model,
+              plate number, and status.
+            </p>
+            <div class="pill-row">
+              <span class="pill">Toyota Camry · Daily</span>
+              <span class="pill">Tesla Model 3 · EV</span>
+              <span class="pill">BMW X5 · Family</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <header class="card-header">
+            <h2 class="card-title">Service History</h2>
+            <span class="card-tag">Last 12 months</span>
+          </header>
+          <div class="card-body">
+            <p>
+              Track oil changes, tire rotations, inspections, and other maintenance
+              items in one place.
+            </p>
+            <div class="pill-row">
+              <span class="pill">Oil change · 2 weeks ago</span>
+              <span class="pill">Tire rotation · 1 month ago</span>
+              <span class="pill">Brake check · 3 months ago</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <header class="card-header">
+            <h2 class="card-title">Upcoming Appointments</h2>
+            <span class="card-tag">Next 30 days</span>
+          </header>
+          <div class="card-body">
+            <p>
+              See what’s coming next, so you never miss a service or registration
+              renewal deadline.
+            </p>
+            <div class="pill-row">
+              <span class="pill">Annual inspection · 7 days</span>
+              <span class="pill">Insurance renewal · 14 days</span>
+              <span class="pill">Tire check · 21 days</span>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      Car Management System · UI-only demo · Built for course projects & GitHub
+      portfolios.
+    </footer>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

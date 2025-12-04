@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class="auth-page">
+<head>
+  <meta charset="UTF-8" />
+  <title>Car Management System – Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="auth-page">
+  <div class="auth-card">
+    <div class="auth-card-inner">
+      <div class="brand-row">
+        <div class="brand">
+          <div class="brand-logo">CM</div>
+          <div class="brand-text">
+            <span class="brand-name">Car Management</span>
+            <span class="brand-subtitle">Keep your cars organized</span>
+          </div>
+        </div>
+        <div class="badge">
+          <span class="badge-dot"></span>
+          <span>Dashboard preview only</span>
+        </div>
+      </div>
+
+      <header class="auth-header">
+        <h1 class="auth-title">Welcome back 👋</h1>
+        <p class="auth-subtitle">Sign in to access your garage and car history.</p>
+      </header>
+
+      <form class="form" action="home.html" method="get">
+        <div class="form-row">
+          <label class="label" for="email">Email</label>
+          <div class="input-wrapper">
+            <input
+              class="input"
+              id="email"
+              type="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            />
+            <span class="input-icon-right">@</span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label class="label" for="password">Password</label>
+          <div class="input-wrapper">
+            <input
+              class="input"
+              id="password"
+              type="password"
+              name="password"
+              placeholder="••••••••"
+              required
+            />
+            <span class="input-icon-right">⋯</span>
+          </div>
+        </div>
+
+        <div class="form-row-inline">
+          <label class="checkbox">
+            <input type="checkbox" />
+            Remember me
+          </label>
+          <a href="#" class="link">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          Continue to dashboard
+        </button>
+      </form>
+
+      <div class="auth-footer">
+        <p class="auth-footer-text">
+          New here?
+          <a href="signup.html">Create a new account</a>
+        </p>
+        <p class="auth-footer-text">
+          This is a UI demo only – no real authentication or backend is connected.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

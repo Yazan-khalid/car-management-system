@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" class="auth-page">
+<head>
+  <meta charset="UTF-8" />
+  <title>Car Management System – Sign Up</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="auth-page">
+  <div class="auth-card">
+    <div class="auth-card-inner">
+      <div class="brand-row">
+        <div class="brand">
+          <div class="brand-logo">CM</div>
+          <div class="brand-text">
+            <span class="brand-name">Car Management</span>
+            <span class="brand-subtitle">Create your account</span>
+          </div>
+        </div>
+        <div class="badge">
+          <span class="badge-dot"></span>
+          <span>Step 1 of 1 · Sign up</span>
+        </div>
+      </div>
+
+      <header class="auth-header">
+        <h1 class="auth-title">Create an account</h1>
+        <p class="auth-subtitle">
+          Set up your profile and start tracking your cars in one place.
+        </p>
+      </header>
+
+      <form class="form" action="home.html" method="get">
+        <div class="form-row">
+          <label class="label" for="name">Full name</label>
+          <div class="input-wrapper">
+            <input
+              class="input"
+              id="name"
+              type="text"
+              name="name"
+              placeholder="John Doe"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label class="label" for="signup-email">Email</label>
+          <div class="input-wrapper">
+            <input
+              class="input"
+              id="signup-email"
+              type="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            />
+            <span class="input-icon-right">@</span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label class="label" for="signup-password">Password</label>
+          <div class="input-wrapper">
+            <input
+              class="input"
+              id="signup-password"
+              type="password"
+              name="password"
+              placeholder="At least 8 characters"
+              required
+            />
+            <span class="input-icon-right">🔒</span>
+          </div>
+          <p class="form-hint">
+            Use 8+ characters with a mix of letters and numbers.
+          </p>
+        </div>
+
+        <div class="form-row">
+          <label class="checkbox">
+            <input type="checkbox" required />
+            I agree to the <span style="text-decoration: underline;">terms</span> and
+            <span style="text-decoration: underline;">privacy policy</span>.
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          Create account
+        </button>
+      </form>
+
+      <div class="auth-footer">
+        <p class="auth-footer-text">
+          Already have an account?
+          <a href="index.html">Sign in here</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
